@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'package:sayan_digital/providers/auth_provider.dart';
-import 'package:sayan_digital/providers/current_account_provider.dart'; // Asegúrate de importar esto
+import 'package:sayan_digital/providers/current_account_provider.dart'; 
 
 class CodigosScreen extends StatefulWidget {
   const CodigosScreen({super.key});
@@ -12,26 +12,37 @@ class CodigosScreen extends StatefulWidget {
 }
 
 class _CodigosScreenState extends State<CodigosScreen> {
+
   final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
 
   Future<void> _onCodigoSelected(
     BuildContext context,
     String contribCodigo,
+    String nombreCompleto
   ) async {
     showDialog(
       context: context,
       barrierDismissible: false,
       builder: (BuildContext context) => _loadingDialog(),
     );
-    print("Codigo seleccionado: $contribCodigo");
     await Provider.of<CurrentAccountProvider>(
       context,
       listen: false,
     ).getDeudas(contribCodigo);
 
     if (!mounted) return;
+
     Navigator.of(context, rootNavigator: true).pop();
-    Navigator.pushReplacementNamed(context, 'principal');
+
+    final datos = {
+      "codigo": contribCodigo,
+      "nombreCompleto": nombreCompleto
+    };
+
+    Navigator.pushReplacementNamed(
+      context,
+      'principal',
+      arguments: datos);
   }
 
   Widget _loadingDialog() {
@@ -133,7 +144,7 @@ class _CodigosScreenState extends State<CodigosScreen> {
                         },
                       );
 
-                      _onCodigoSelected(context, datos[index].contrib);
+                      _onCodigoSelected(context, datos[index].contrib, datos[index].nombreCompleto);
 
                       /* final currentAccount =
                           Provider.of<CurrentAccountProvider>(

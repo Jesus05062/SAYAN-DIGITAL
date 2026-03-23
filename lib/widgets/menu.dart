@@ -8,8 +8,8 @@ class MyMenu extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final user = Provider.of<AuthProvider>(context).user;
-    final datosLength = user?.detalle.length ?? 0;
+    final authProvider = Provider.of<AuthProvider>(context);
+    final datosLength = authProvider.user?.detalle.length;
 
     final screenWidth = MediaQuery.of(context).size.width;
 
@@ -22,26 +22,28 @@ class MyMenu extends StatelessWidget {
           children: [
             // Encabezado con logo
             DrawerHeader(
-              decoration: BoxDecoration(color: Colors.blueGrey.shade800),
+              decoration: BoxDecoration(
+                color: const Color.fromARGB(255, 168, 220, 247),
+              ),
               child: Center(
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(12),
                   child: Image.asset(
-                    'images/SayanDigital.png',
-                    fit: BoxFit.contain,
-                    width: screenWidth * 0.4,
-                  ),
+                                    'images/logo_municipio.png',
+                                    fit: BoxFit.contain,
+                                    width: screenWidth * 0.4,
+                                  ),
                 ),
               ),
             ),
 
-            // Opciones dinámicas
-            if (datosLength > 1)
+            // Opcion dinámica
+            if (datosLength! > 1)
               _MenuItem(
-                label: "Viviendas",
+                label: "Codigos",
                 icon: Icons.home,
                 onTap: () {
-                  Navigator.pushReplacementNamed(context, 'viviendas');
+                  Navigator.pushReplacementNamed(context, 'codigos');
                 },
               ),
 
@@ -58,8 +60,10 @@ class MyMenu extends StatelessWidget {
               icon: Icons.contact_mail,
               onTap: () => _showContactoPopup(context)
             ), */
-            const Divider(height: 30, color: Colors.black),
 
+            const Divider(height: 30, color: Colors.black,),
+
+            // Cerrar sesión al final
             _MenuItem(
               label: "Cerrar Sesión",
               icon: Icons.exit_to_app,
@@ -73,7 +77,6 @@ class MyMenu extends StatelessWidget {
       ),
     );
   }
-
   void _showContactoPopup(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;
 
@@ -99,25 +102,17 @@ class MyMenu extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
-                  "📞 Teléfono: +51 987 654 321",
-                  style: GoogleFonts.urbanist(fontSize: 16),
-                ),
+                Text("📞 Teléfono: +51 987 654 321",
+                    style: GoogleFonts.urbanist(fontSize: 16)),
                 const SizedBox(height: 10),
-                Text(
-                  "💬 Teléfono: +51 987 654 321",
-                  style: GoogleFonts.urbanist(fontSize: 16),
-                ),
+                Text("💬 Teléfono: +51 987 654 321",
+                    style: GoogleFonts.urbanist(fontSize: 16)),
                 const Divider(height: 30, color: Colors.black),
-                Text(
-                  "📧 Email: helpdesk@munisayan.gob.pe",
-                  style: GoogleFonts.urbanist(fontSize: 16),
-                ),
-                const Divider(height: 30, color: Colors.black),
-                Text(
-                  "📍 Dirección: Av. Siempre Viva 123, Lima",
-                  style: GoogleFonts.urbanist(fontSize: 16),
-                ),
+                Text("📧 Email: helpdesk@munisayan.gob.pe",
+                    style: GoogleFonts.urbanist(fontSize: 16)),
+                const Divider(height: 30, color: Colors.black,),
+                Text("📍 Dirección: Av. Siempre Viva 123, Lima",
+                    style: GoogleFonts.urbanist(fontSize: 16)),
               ],
             ),
           ),
@@ -131,13 +126,14 @@ class MyMenu extends StatelessWidget {
                 ),
               ),
               onPressed: () => Navigator.pop(context),
-            ),
+            )
           ],
         );
       },
     );
   }
 }
+
 
 class _MenuItem extends StatelessWidget {
   final String label;
@@ -169,3 +165,5 @@ class _MenuItem extends StatelessWidget {
     );
   }
 }
+
+

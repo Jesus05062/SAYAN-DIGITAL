@@ -308,7 +308,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
             ),
             const SizedBox(height: 15),
             const Text(
-              "Aquí puedes encontrar tu código en tu documento físico.",
+              "Aquí puedes encontrar tu código en tu documento físico.\n El codigo vigente es el codigo generado del año actual.",
             ),
           ],
         ),

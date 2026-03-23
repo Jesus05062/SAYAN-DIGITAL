@@ -3,9 +3,9 @@
         "Id_Config_Tributo": 1,
         "Descripcion": "IMPUESTO PREDIAL",
         "Insoluto": 3275.11,
-        "Interes": 194.91,
-        "Total": 3629.72,
-        "PorPagar": 2207.72,
+        "Interes": 196.13,
+        "Total": 3630.94,
+        "PorPagar": 2208.94,
         "IsTributo": false,
         "hijos": [
             {
@@ -915,7 +915,7 @@
                 "PeriodoC": "2022-01",
                 "ValorDeuda": 41.29,
                 "ValorDerechoEmision": 11.00,
-                "ValorInteres": 21.42,
+                "ValorInteres": 21.50,
                 "Estado": 1,
                 "Año": 2022,
                 "AñoDate": "2022-01-01T00:00:00",
@@ -923,7 +923,7 @@
                 "FechaVencimiento": "2022-02-28T00:00:00",
                 "Codigo": "P-0395",
                 "Pago": 0.00,
-                "Saldo": 73.71,
+                "Saldo": 73.79,
                 "DireccionCompleta": ""
             },
             {
@@ -932,7 +932,7 @@
                 "PeriodoC": "2022-02",
                 "ValorDeuda": 41.29,
                 "ValorDerechoEmision": 0.00,
-                "ValorInteres": 19.84,
+                "ValorInteres": 19.91,
                 "Estado": 1,
                 "Año": 2022,
                 "AñoDate": "2022-01-01T00:00:00",
@@ -940,7 +940,7 @@
                 "FechaVencimiento": "2022-05-31T00:00:00",
                 "Codigo": "P-0395",
                 "Pago": 0.00,
-                "Saldo": 61.13,
+                "Saldo": 61.20,
                 "DireccionCompleta": ""
             },
             {
@@ -949,7 +949,7 @@
                 "PeriodoC": "2022-03",
                 "ValorDeuda": 41.29,
                 "ValorDerechoEmision": 0.00,
-                "ValorInteres": 18.25,
+                "ValorInteres": 18.32,
                 "Estado": 1,
                 "Año": 2022,
                 "AñoDate": "2022-01-01T00:00:00",
@@ -957,7 +957,7 @@
                 "FechaVencimiento": "2022-08-31T00:00:00",
                 "Codigo": "P-0395",
                 "Pago": 0.00,
-                "Saldo": 59.54,
+                "Saldo": 59.61,
                 "DireccionCompleta": ""
             },
             {
@@ -966,7 +966,7 @@
                 "PeriodoC": "2022-04",
                 "ValorDeuda": 41.28,
                 "ValorDerechoEmision": 0.00,
-                "ValorInteres": 16.68,
+                "ValorInteres": 16.75,
                 "Estado": 1,
                 "Año": 2022,
                 "AñoDate": "2022-01-01T00:00:00",
@@ -974,7 +974,7 @@
                 "FechaVencimiento": "2022-11-30T00:00:00",
                 "Codigo": "P-0395",
                 "Pago": 0.00,
-                "Saldo": 57.96,
+                "Saldo": 58.03,
                 "DireccionCompleta": ""
             },
             {
@@ -983,7 +983,7 @@
                 "PeriodoC": "2023-01",
                 "ValorDeuda": 43.56,
                 "ValorDerechoEmision": 11.00,
-                "ValorInteres": 16.07,
+                "ValorInteres": 16.14,
                 "Estado": 1,
                 "Año": 2023,
                 "AñoDate": "2023-01-01T00:00:00",
@@ -991,7 +991,7 @@
                 "FechaVencimiento": "2023-02-28T00:00:00",
                 "Codigo": "P-0395",
                 "Pago": 0.00,
-                "Saldo": 70.63,
+                "Saldo": 70.70,
                 "DireccionCompleta": ""
             },
             {
@@ -1000,7 +1000,7 @@
                 "PeriodoC": "2023-02",
                 "ValorDeuda": 43.56,
                 "ValorDerechoEmision": 0.00,
-                "ValorInteres": 14.57,
+                "ValorInteres": 14.63,
                 "Estado": 1,
                 "Año": 2023,
                 "AñoDate": "2023-01-01T00:00:00",
@@ -1008,7 +1008,7 @@
                 "FechaVencimiento": "2023-05-31T00:00:00",
                 "Codigo": "P-0395",
                 "Pago": 0.00,
-                "Saldo": 58.13,
+                "Saldo": 58.19,
                 "DireccionCompleta": ""
             },
             {
@@ -1017,7 +1017,7 @@
                 "PeriodoC": "2023-03",
                 "ValorDeuda": 43.56,
                 "ValorDerechoEmision": 0.00,
-                "ValorInteres": 13.05,
+                "ValorInteres": 13.12,
                 "Estado": 1,
                 "Año": 2023,
                 "AñoDate": "2023-01-01T00:00:00",
@@ -1025,7 +1025,7 @@
                 "FechaVencimiento": "2023-08-31T00:00:00",
                 "Codigo": "P-0395",
                 "Pago": 0.00,
-                "Saldo": 56.61,
+                "Saldo": 56.68,
                 "DireccionCompleta": ""
             },
             {
@@ -1034,7 +1034,7 @@
                 "PeriodoC": "2023-04",
                 "ValorDeuda": 43.55,
                 "ValorDerechoEmision": 0.00,
-                "ValorInteres": 11.56,
+                "ValorInteres": 11.63,
                 "Estado": 1,
                 "Año": 2023,
                 "AñoDate": "2023-01-01T00:00:00",
@@ -1042,7 +1042,7 @@
                 "FechaVencimiento": "2023-11-30T00:00:00",
                 "Codigo": "P-0395",
                 "Pago": 0.00,
-                "Saldo": 55.11,
+                "Saldo": 55.18,
                 "DireccionCompleta": ""
             },
             {
@@ -1051,7 +1051,7 @@
                 "PeriodoC": "2024-01",
                 "ValorDeuda": 58.90,
                 "ValorDerechoEmision": 11.20,
-                "ValorInteres": 13.75,
+                "ValorInteres": 13.84,
                 "Estado": 1,
                 "Año": 2024,
                 "AñoDate": "2024-01-01T00:00:00",
@@ -1059,7 +1059,7 @@
                 "FechaVencimiento": "2024-02-29T00:00:00",
                 "Codigo": "P-0395",
                 "Pago": 0.00,
-                "Saldo": 83.85,
+                "Saldo": 83.94,
                 "DireccionCompleta": ""
             },
             {
@@ -1068,7 +1068,7 @@
                 "PeriodoC": "2024-02",
                 "ValorDeuda": 58.90,
                 "ValorDerechoEmision": 0.00,
-                "ValorInteres": 11.92,
+                "ValorInteres": 12.00,
                 "Estado": 1,
                 "Año": 2024,
                 "AñoDate": "2024-01-01T00:00:00",
@@ -1076,7 +1076,7 @@
                 "FechaVencimiento": "2024-05-31T00:00:00",
                 "Codigo": "P-0395",
                 "Pago": 0.00,
-                "Saldo": 70.82,
+                "Saldo": 70.90,
                 "DireccionCompleta": ""
             },
             {
@@ -1085,7 +1085,7 @@
                 "PeriodoC": "2024-03",
                 "ValorDeuda": 58.90,
                 "ValorDerechoEmision": 0.00,
-                "ValorInteres": 10.08,
+                "ValorInteres": 10.16,
                 "Estado": 1,
                 "Año": 2024,
                 "AñoDate": "2024-01-01T00:00:00",
@@ -1093,7 +1093,7 @@
                 "FechaVencimiento": "2024-08-31T00:00:00",
                 "Codigo": "P-0395",
                 "Pago": 0.00,
-                "Saldo": 68.98,
+                "Saldo": 69.06,
                 "DireccionCompleta": ""
             },
             {
@@ -1102,7 +1102,7 @@
                 "PeriodoC": "2024-04",
                 "ValorDeuda": 58.89,
                 "ValorDerechoEmision": 0.00,
-                "ValorInteres": 8.26,
+                "ValorInteres": 8.34,
                 "Estado": 1,
                 "Año": 2024,
                 "AñoDate": "2024-01-01T00:00:00",
@@ -1110,7 +1110,7 @@
                 "FechaVencimiento": "2024-11-30T00:00:00",
                 "Codigo": "P-0395",
                 "Pago": 0.00,
-                "Saldo": 67.15,
+                "Saldo": 67.23,
                 "DireccionCompleta": ""
             },
             {
@@ -1119,7 +1119,7 @@
                 "PeriodoC": "2025-01",
                 "ValorDeuda": 69.74,
                 "ValorDerechoEmision": 11.20,
-                "ValorInteres": 7.80,
+                "ValorInteres": 7.89,
                 "Estado": 1,
                 "Año": 2025,
                 "AñoDate": "2025-01-01T00:00:00",
@@ -1127,7 +1127,7 @@
                 "FechaVencimiento": "2025-02-28T00:00:00",
                 "Codigo": "P-0395",
                 "Pago": 0.00,
-                "Saldo": 88.74,
+                "Saldo": 88.83,
                 "DireccionCompleta": ""
             },
             {
@@ -1136,7 +1136,7 @@
                 "PeriodoC": "2025-02",
                 "ValorDeuda": 69.74,
                 "ValorDerechoEmision": 0.00,
-                "ValorInteres": 5.84,
+                "ValorInteres": 5.92,
                 "Estado": 1,
                 "Año": 2025,
                 "AñoDate": "2025-01-01T00:00:00",
@@ -1144,7 +1144,7 @@
                 "FechaVencimiento": "2025-05-31T00:00:00",
                 "Codigo": "P-0395",
                 "Pago": 0.00,
-                "Saldo": 75.58,
+                "Saldo": 75.66,
                 "DireccionCompleta": ""
             },
             {
@@ -1153,7 +1153,7 @@
                 "PeriodoC": "2025-03",
                 "ValorDeuda": 69.74,
                 "ValorDerechoEmision": 0.00,
-                "ValorInteres": 3.88,
+                "ValorInteres": 3.96,
                 "Estado": 1,
                 "Año": 2025,
                 "AñoDate": "2025-01-01T00:00:00",
@@ -1161,7 +1161,7 @@
                 "FechaVencimiento": "2025-08-31T00:00:00",
                 "Codigo": "P-0395",
                 "Pago": 0.00,
-                "Saldo": 73.62,
+                "Saldo": 73.70,
                 "DireccionCompleta": ""
             },
             {
@@ -1170,7 +1170,7 @@
                 "PeriodoC": "2025-04",
                 "ValorDeuda": 69.72,
                 "ValorDerechoEmision": 0.00,
-                "ValorInteres": 1.94,
+                "ValorInteres": 2.02,
                 "Estado": 1,
                 "Año": 2025,
                 "AñoDate": "2025-01-01T00:00:00",
@@ -1178,7 +1178,7 @@
                 "FechaVencimiento": "2025-11-30T00:00:00",
                 "Codigo": "P-0395",
                 "Pago": 0.00,
-                "Saldo": 71.66,
+                "Saldo": 71.74,
                 "DireccionCompleta": ""
             },
             {
@@ -1255,9 +1255,9 @@
         "Id_Config_Tributo": 2,
         "Descripcion": "LIMPIEZA PUBLICA",
         "Insoluto": 630.00,
-        "Interes": 292.59,
-        "Total": 922.59,
-        "PorPagar": 922.59,
+        "Interes": 293.36,
+        "Total": 923.36,
+        "PorPagar": 923.36,
         "IsTributo": true,
         "hijos": [
             {
@@ -1269,7 +1269,7 @@
                         "PeriodoC": "2018-01",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 20.26,
+                        "ValorInteres": 20.29,
                         "Estado": 1,
                         "Año": 2018,
                         "AñoDate": "2018-01-01T00:00:00",
@@ -1277,7 +1277,7 @@
                         "FechaVencimiento": "2018-03-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 37.76,
+                        "Saldo": 37.79,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1286,7 +1286,7 @@
                         "PeriodoC": "2018-02",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 19.63,
+                        "ValorInteres": 19.66,
                         "Estado": 1,
                         "Año": 2018,
                         "AñoDate": "2018-01-01T00:00:00",
@@ -1294,7 +1294,7 @@
                         "FechaVencimiento": "2018-06-28T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 37.13,
+                        "Saldo": 37.16,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1303,7 +1303,7 @@
                         "PeriodoC": "2018-03",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 18.98,
+                        "ValorInteres": 19.01,
                         "Estado": 1,
                         "Año": 2018,
                         "AñoDate": "2018-01-01T00:00:00",
@@ -1311,7 +1311,7 @@
                         "FechaVencimiento": "2018-09-28T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 36.48,
+                        "Saldo": 36.51,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1320,7 +1320,7 @@
                         "PeriodoC": "2018-04",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 18.35,
+                        "ValorInteres": 18.38,
                         "Estado": 1,
                         "Año": 2018,
                         "AñoDate": "2018-01-01T00:00:00",
@@ -1328,7 +1328,7 @@
                         "FechaVencimiento": "2018-12-28T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 35.85,
+                        "Saldo": 35.88,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1337,7 +1337,7 @@
                         "PeriodoC": "2019-01",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 17.70,
+                        "ValorInteres": 17.73,
                         "Estado": 1,
                         "Año": 2019,
                         "AñoDate": "2019-01-01T00:00:00",
@@ -1345,7 +1345,7 @@
                         "FechaVencimiento": "2019-03-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 35.20,
+                        "Saldo": 35.23,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1354,7 +1354,7 @@
                         "PeriodoC": "2019-02",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 17.07,
+                        "ValorInteres": 17.10,
                         "Estado": 1,
                         "Año": 2019,
                         "AñoDate": "2019-01-01T00:00:00",
@@ -1362,7 +1362,7 @@
                         "FechaVencimiento": "2019-06-28T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 34.57,
+                        "Saldo": 34.60,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1371,7 +1371,7 @@
                         "PeriodoC": "2019-03",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 16.43,
+                        "ValorInteres": 16.46,
                         "Estado": 1,
                         "Año": 2019,
                         "AñoDate": "2019-01-01T00:00:00",
@@ -1379,7 +1379,7 @@
                         "FechaVencimiento": "2019-09-28T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 33.93,
+                        "Saldo": 33.96,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1388,7 +1388,7 @@
                         "PeriodoC": "2019-04",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 15.79,
+                        "ValorInteres": 15.82,
                         "Estado": 1,
                         "Año": 2019,
                         "AñoDate": "2019-01-01T00:00:00",
@@ -1396,7 +1396,7 @@
                         "FechaVencimiento": "2019-12-28T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 33.29,
+                        "Saldo": 33.32,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1405,7 +1405,7 @@
                         "PeriodoC": "2020-01",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 15.13,
+                        "ValorInteres": 15.16,
                         "Estado": 1,
                         "Año": 2020,
                         "AñoDate": "2020-01-01T00:00:00",
@@ -1413,7 +1413,7 @@
                         "FechaVencimiento": "2020-03-31T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 32.63,
+                        "Saldo": 32.66,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1422,7 +1422,7 @@
                         "PeriodoC": "2020-02",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 12.08,
+                        "ValorInteres": 12.10,
                         "Estado": 1,
                         "Año": 2020,
                         "AñoDate": "2020-01-01T00:00:00",
@@ -1430,7 +1430,7 @@
                         "FechaVencimiento": "2020-06-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 29.58,
+                        "Saldo": 29.60,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1439,7 +1439,7 @@
                         "PeriodoC": "2020-03",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 11.54,
+                        "ValorInteres": 11.57,
                         "Estado": 1,
                         "Año": 2020,
                         "AñoDate": "2020-01-01T00:00:00",
@@ -1447,7 +1447,7 @@
                         "FechaVencimiento": "2020-09-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 29.04,
+                        "Saldo": 29.07,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1456,7 +1456,7 @@
                         "PeriodoC": "2020-04",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 11.01,
+                        "ValorInteres": 11.03,
                         "Estado": 1,
                         "Año": 2020,
                         "AñoDate": "2020-01-01T00:00:00",
@@ -1464,7 +1464,7 @@
                         "FechaVencimiento": "2020-12-31T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 28.51,
+                        "Saldo": 28.53,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1473,7 +1473,7 @@
                         "PeriodoC": "2021-01",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 10.48,
+                        "ValorInteres": 10.50,
                         "Estado": 1,
                         "Año": 2021,
                         "AñoDate": "2021-01-01T00:00:00",
@@ -1481,7 +1481,7 @@
                         "FechaVencimiento": "2021-03-31T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 27.98,
+                        "Saldo": 28.00,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1490,7 +1490,7 @@
                         "PeriodoC": "2021-02",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 8.96,
+                        "ValorInteres": 8.98,
                         "Estado": 1,
                         "Año": 2021,
                         "AñoDate": "2021-01-01T00:00:00",
@@ -1498,7 +1498,7 @@
                         "FechaVencimiento": "2021-06-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 26.46,
+                        "Saldo": 26.48,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1507,7 +1507,7 @@
                         "PeriodoC": "2021-03",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 8.47,
+                        "ValorInteres": 8.49,
                         "Estado": 1,
                         "Año": 2021,
                         "AñoDate": "2021-01-01T00:00:00",
@@ -1515,7 +1515,7 @@
                         "FechaVencimiento": "2021-09-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 25.97,
+                        "Saldo": 25.99,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1524,7 +1524,7 @@
                         "PeriodoC": "2021-04",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 7.99,
+                        "ValorInteres": 8.01,
                         "Estado": 1,
                         "Año": 2021,
                         "AñoDate": "2021-01-01T00:00:00",
@@ -1532,7 +1532,7 @@
                         "FechaVencimiento": "2021-12-31T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 25.49,
+                        "Saldo": 25.51,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1541,7 +1541,7 @@
                         "PeriodoC": "2022-01",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 7.52,
+                        "ValorInteres": 7.54,
                         "Estado": 1,
                         "Año": 2022,
                         "AñoDate": "2022-01-01T00:00:00",
@@ -1549,7 +1549,7 @@
                         "FechaVencimiento": "2022-03-31T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 25.02,
+                        "Saldo": 25.04,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1558,7 +1558,7 @@
                         "PeriodoC": "2022-02",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 7.04,
+                        "ValorInteres": 7.06,
                         "Estado": 1,
                         "Año": 2022,
                         "AñoDate": "2022-01-01T00:00:00",
@@ -1566,7 +1566,7 @@
                         "FechaVencimiento": "2022-06-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 24.54,
+                        "Saldo": 24.56,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1575,7 +1575,7 @@
                         "PeriodoC": "2022-03",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 6.56,
+                        "ValorInteres": 6.58,
                         "Estado": 1,
                         "Año": 2022,
                         "AñoDate": "2022-01-01T00:00:00",
@@ -1583,7 +1583,7 @@
                         "FechaVencimiento": "2022-09-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 24.06,
+                        "Saldo": 24.08,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1592,7 +1592,7 @@
                         "PeriodoC": "2022-04",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 6.07,
+                        "ValorInteres": 6.10,
                         "Estado": 1,
                         "Año": 2022,
                         "AñoDate": "2022-01-01T00:00:00",
@@ -1600,7 +1600,7 @@
                         "FechaVencimiento": "2022-12-31T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 23.57,
+                        "Saldo": 23.60,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1609,7 +1609,7 @@
                         "PeriodoC": "2023-01",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 5.60,
+                        "ValorInteres": 5.62,
                         "Estado": 1,
                         "Año": 2023,
                         "AñoDate": "2023-01-01T00:00:00",
@@ -1617,7 +1617,7 @@
                         "FechaVencimiento": "2023-03-31T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 23.10,
+                        "Saldo": 23.12,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1626,7 +1626,7 @@
                         "PeriodoC": "2023-02",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 5.12,
+                        "ValorInteres": 5.15,
                         "Estado": 1,
                         "Año": 2023,
                         "AñoDate": "2023-01-01T00:00:00",
@@ -1634,7 +1634,7 @@
                         "FechaVencimiento": "2023-06-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 22.62,
+                        "Saldo": 22.65,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1643,7 +1643,7 @@
                         "PeriodoC": "2023-03",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 4.64,
+                        "ValorInteres": 4.66,
                         "Estado": 1,
                         "Año": 2023,
                         "AñoDate": "2023-01-01T00:00:00",
@@ -1651,7 +1651,7 @@
                         "FechaVencimiento": "2023-09-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 22.14,
+                        "Saldo": 22.16,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1660,7 +1660,7 @@
                         "PeriodoC": "2023-04",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 4.16,
+                        "ValorInteres": 4.18,
                         "Estado": 1,
                         "Año": 2023,
                         "AñoDate": "2023-01-01T00:00:00",
@@ -1668,7 +1668,7 @@
                         "FechaVencimiento": "2023-12-31T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 21.66,
+                        "Saldo": 21.68,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1677,7 +1677,7 @@
                         "PeriodoC": "2024-01",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 3.68,
+                        "ValorInteres": 3.70,
                         "Estado": 1,
                         "Año": 2024,
                         "AñoDate": "2024-01-01T00:00:00",
@@ -1685,7 +1685,7 @@
                         "FechaVencimiento": "2024-03-31T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 21.18,
+                        "Saldo": 21.20,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1694,7 +1694,7 @@
                         "PeriodoC": "2024-02",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 3.20,
+                        "ValorInteres": 3.22,
                         "Estado": 1,
                         "Año": 2024,
                         "AñoDate": "2024-01-01T00:00:00",
@@ -1702,7 +1702,7 @@
                         "FechaVencimiento": "2024-06-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 20.70,
+                        "Saldo": 20.72,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1711,7 +1711,7 @@
                         "PeriodoC": "2024-03",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 2.72,
+                        "ValorInteres": 2.74,
                         "Estado": 1,
                         "Año": 2024,
                         "AñoDate": "2024-01-01T00:00:00",
@@ -1719,7 +1719,7 @@
                         "FechaVencimiento": "2024-09-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 20.22,
+                        "Saldo": 20.24,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1728,7 +1728,7 @@
                         "PeriodoC": "2024-04",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 2.24,
+                        "ValorInteres": 2.26,
                         "Estado": 1,
                         "Año": 2024,
                         "AñoDate": "2024-01-01T00:00:00",
@@ -1736,7 +1736,7 @@
                         "FechaVencimiento": "2024-12-31T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 19.74,
+                        "Saldo": 19.76,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1745,7 +1745,7 @@
                         "PeriodoC": "2025-01",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 1.76,
+                        "ValorInteres": 1.79,
                         "Estado": 1,
                         "Año": 2025,
                         "AñoDate": "2025-01-01T00:00:00",
@@ -1753,7 +1753,7 @@
                         "FechaVencimiento": "2025-03-31T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 19.26,
+                        "Saldo": 19.29,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1762,7 +1762,7 @@
                         "PeriodoC": "2025-02",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 1.29,
+                        "ValorInteres": 1.31,
                         "Estado": 1,
                         "Año": 2025,
                         "AñoDate": "2025-01-01T00:00:00",
@@ -1770,7 +1770,7 @@
                         "FechaVencimiento": "2025-06-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 18.79,
+                        "Saldo": 18.81,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1779,7 +1779,7 @@
                         "PeriodoC": "2025-03",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 0.80,
+                        "ValorInteres": 0.82,
                         "Estado": 1,
                         "Año": 2025,
                         "AñoDate": "2025-01-01T00:00:00",
@@ -1787,7 +1787,7 @@
                         "FechaVencimiento": "2025-09-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 18.30,
+                        "Saldo": 18.32,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1796,7 +1796,7 @@
                         "PeriodoC": "2025-04",
                         "ValorDeuda": 17.50,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 0.32,
+                        "ValorInteres": 0.34,
                         "Estado": 1,
                         "Año": 2025,
                         "AñoDate": "2025-01-01T00:00:00",
@@ -1804,7 +1804,7 @@
                         "FechaVencimiento": "2025-12-31T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 17.82,
+                        "Saldo": 17.84,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1883,9 +1883,9 @@
         "Id_Config_Tributo": 3,
         "Descripcion": "SERENAZGO",
         "Insoluto": 360.00,
-        "Interes": 167.23,
-        "Total": 527.23,
-        "PorPagar": 527.23,
+        "Interes": 167.62,
+        "Total": 527.62,
+        "PorPagar": 527.62,
         "IsTributo": true,
         "hijos": [
             {
@@ -1897,7 +1897,7 @@
                         "PeriodoC": "2018-01",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 11.58,
+                        "ValorInteres": 11.59,
                         "Estado": 1,
                         "Año": 2018,
                         "AñoDate": "2018-01-01T00:00:00",
@@ -1905,7 +1905,7 @@
                         "FechaVencimiento": "2018-03-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 21.58,
+                        "Saldo": 21.59,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1914,7 +1914,7 @@
                         "PeriodoC": "2018-02",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 11.22,
+                        "ValorInteres": 11.23,
                         "Estado": 1,
                         "Año": 2018,
                         "AñoDate": "2018-01-01T00:00:00",
@@ -1922,7 +1922,7 @@
                         "FechaVencimiento": "2018-06-28T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 21.22,
+                        "Saldo": 21.23,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1931,7 +1931,7 @@
                         "PeriodoC": "2018-03",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 10.85,
+                        "ValorInteres": 10.86,
                         "Estado": 1,
                         "Año": 2018,
                         "AñoDate": "2018-01-01T00:00:00",
@@ -1939,7 +1939,7 @@
                         "FechaVencimiento": "2018-09-28T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 20.85,
+                        "Saldo": 20.86,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1948,7 +1948,7 @@
                         "PeriodoC": "2018-04",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 10.48,
+                        "ValorInteres": 10.50,
                         "Estado": 1,
                         "Año": 2018,
                         "AñoDate": "2018-01-01T00:00:00",
@@ -1956,7 +1956,7 @@
                         "FechaVencimiento": "2018-12-28T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 20.48,
+                        "Saldo": 20.50,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1965,7 +1965,7 @@
                         "PeriodoC": "2019-01",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 10.12,
+                        "ValorInteres": 10.13,
                         "Estado": 1,
                         "Año": 2019,
                         "AñoDate": "2019-01-01T00:00:00",
@@ -1973,7 +1973,7 @@
                         "FechaVencimiento": "2019-03-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 20.12,
+                        "Saldo": 20.13,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1982,7 +1982,7 @@
                         "PeriodoC": "2019-02",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 9.76,
+                        "ValorInteres": 9.77,
                         "Estado": 1,
                         "Año": 2019,
                         "AñoDate": "2019-01-01T00:00:00",
@@ -1990,7 +1990,7 @@
                         "FechaVencimiento": "2019-06-28T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 19.76,
+                        "Saldo": 19.77,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -1999,7 +1999,7 @@
                         "PeriodoC": "2019-03",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 9.39,
+                        "ValorInteres": 9.40,
                         "Estado": 1,
                         "Año": 2019,
                         "AñoDate": "2019-01-01T00:00:00",
@@ -2007,7 +2007,7 @@
                         "FechaVencimiento": "2019-09-28T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 19.39,
+                        "Saldo": 19.40,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2016,7 +2016,7 @@
                         "PeriodoC": "2019-04",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 9.02,
+                        "ValorInteres": 9.04,
                         "Estado": 1,
                         "Año": 2019,
                         "AñoDate": "2019-01-01T00:00:00",
@@ -2024,7 +2024,7 @@
                         "FechaVencimiento": "2019-12-28T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 19.02,
+                        "Saldo": 19.04,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2033,7 +2033,7 @@
                         "PeriodoC": "2020-01",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 8.65,
+                        "ValorInteres": 8.66,
                         "Estado": 1,
                         "Año": 2020,
                         "AñoDate": "2020-01-01T00:00:00",
@@ -2041,7 +2041,7 @@
                         "FechaVencimiento": "2020-03-31T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 18.65,
+                        "Saldo": 18.66,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2050,7 +2050,7 @@
                         "PeriodoC": "2020-02",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 6.90,
+                        "ValorInteres": 6.92,
                         "Estado": 1,
                         "Año": 2020,
                         "AñoDate": "2020-01-01T00:00:00",
@@ -2058,7 +2058,7 @@
                         "FechaVencimiento": "2020-06-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 16.90,
+                        "Saldo": 16.92,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2067,7 +2067,7 @@
                         "PeriodoC": "2020-03",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 6.60,
+                        "ValorInteres": 6.61,
                         "Estado": 1,
                         "Año": 2020,
                         "AñoDate": "2020-01-01T00:00:00",
@@ -2075,7 +2075,7 @@
                         "FechaVencimiento": "2020-09-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 16.60,
+                        "Saldo": 16.61,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2084,7 +2084,7 @@
                         "PeriodoC": "2020-04",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 6.29,
+                        "ValorInteres": 6.30,
                         "Estado": 1,
                         "Año": 2020,
                         "AñoDate": "2020-01-01T00:00:00",
@@ -2092,7 +2092,7 @@
                         "FechaVencimiento": "2020-12-31T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 16.29,
+                        "Saldo": 16.30,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2101,7 +2101,7 @@
                         "PeriodoC": "2021-01",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 5.99,
+                        "ValorInteres": 6.00,
                         "Estado": 1,
                         "Año": 2021,
                         "AñoDate": "2021-01-01T00:00:00",
@@ -2109,7 +2109,7 @@
                         "FechaVencimiento": "2021-03-31T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 15.99,
+                        "Saldo": 16.00,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2118,7 +2118,7 @@
                         "PeriodoC": "2021-02",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 5.12,
+                        "ValorInteres": 5.13,
                         "Estado": 1,
                         "Año": 2021,
                         "AñoDate": "2021-01-01T00:00:00",
@@ -2126,7 +2126,7 @@
                         "FechaVencimiento": "2021-06-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 15.12,
+                        "Saldo": 15.13,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2135,7 +2135,7 @@
                         "PeriodoC": "2021-03",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 4.84,
+                        "ValorInteres": 4.85,
                         "Estado": 1,
                         "Año": 2021,
                         "AñoDate": "2021-01-01T00:00:00",
@@ -2143,7 +2143,7 @@
                         "FechaVencimiento": "2021-09-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 14.84,
+                        "Saldo": 14.85,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2152,7 +2152,7 @@
                         "PeriodoC": "2021-04",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 4.57,
+                        "ValorInteres": 4.58,
                         "Estado": 1,
                         "Año": 2021,
                         "AñoDate": "2021-01-01T00:00:00",
@@ -2160,7 +2160,7 @@
                         "FechaVencimiento": "2021-12-31T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 14.57,
+                        "Saldo": 14.58,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2169,7 +2169,7 @@
                         "PeriodoC": "2022-01",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 4.30,
+                        "ValorInteres": 4.31,
                         "Estado": 1,
                         "Año": 2022,
                         "AñoDate": "2022-01-01T00:00:00",
@@ -2177,7 +2177,7 @@
                         "FechaVencimiento": "2022-03-31T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 14.30,
+                        "Saldo": 14.31,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2186,7 +2186,7 @@
                         "PeriodoC": "2022-02",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 4.02,
+                        "ValorInteres": 4.04,
                         "Estado": 1,
                         "Año": 2022,
                         "AñoDate": "2022-01-01T00:00:00",
@@ -2194,7 +2194,7 @@
                         "FechaVencimiento": "2022-06-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 14.02,
+                        "Saldo": 14.04,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2203,7 +2203,7 @@
                         "PeriodoC": "2022-03",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 3.75,
+                        "ValorInteres": 3.76,
                         "Estado": 1,
                         "Año": 2022,
                         "AñoDate": "2022-01-01T00:00:00",
@@ -2211,7 +2211,7 @@
                         "FechaVencimiento": "2022-09-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 13.75,
+                        "Saldo": 13.76,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2220,7 +2220,7 @@
                         "PeriodoC": "2022-04",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 3.47,
+                        "ValorInteres": 3.48,
                         "Estado": 1,
                         "Año": 2022,
                         "AñoDate": "2022-01-01T00:00:00",
@@ -2228,7 +2228,7 @@
                         "FechaVencimiento": "2022-12-31T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 13.47,
+                        "Saldo": 13.48,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2237,7 +2237,7 @@
                         "PeriodoC": "2023-01",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 3.20,
+                        "ValorInteres": 3.21,
                         "Estado": 1,
                         "Año": 2023,
                         "AñoDate": "2023-01-01T00:00:00",
@@ -2245,7 +2245,7 @@
                         "FechaVencimiento": "2023-03-31T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 13.20,
+                        "Saldo": 13.21,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2254,7 +2254,7 @@
                         "PeriodoC": "2023-02",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 2.93,
+                        "ValorInteres": 2.94,
                         "Estado": 1,
                         "Año": 2023,
                         "AñoDate": "2023-01-01T00:00:00",
@@ -2262,7 +2262,7 @@
                         "FechaVencimiento": "2023-06-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 12.93,
+                        "Saldo": 12.94,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2271,7 +2271,7 @@
                         "PeriodoC": "2023-03",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 2.65,
+                        "ValorInteres": 2.66,
                         "Estado": 1,
                         "Año": 2023,
                         "AñoDate": "2023-01-01T00:00:00",
@@ -2279,7 +2279,7 @@
                         "FechaVencimiento": "2023-09-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 12.65,
+                        "Saldo": 12.66,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2288,7 +2288,7 @@
                         "PeriodoC": "2023-04",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 2.38,
+                        "ValorInteres": 2.39,
                         "Estado": 1,
                         "Año": 2023,
                         "AñoDate": "2023-01-01T00:00:00",
@@ -2296,7 +2296,7 @@
                         "FechaVencimiento": "2023-12-31T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 12.38,
+                        "Saldo": 12.39,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2305,7 +2305,7 @@
                         "PeriodoC": "2024-01",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 2.10,
+                        "ValorInteres": 2.12,
                         "Estado": 1,
                         "Año": 2024,
                         "AñoDate": "2024-01-01T00:00:00",
@@ -2313,7 +2313,7 @@
                         "FechaVencimiento": "2024-03-31T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 12.10,
+                        "Saldo": 12.12,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2322,7 +2322,7 @@
                         "PeriodoC": "2024-02",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 1.83,
+                        "ValorInteres": 1.84,
                         "Estado": 1,
                         "Año": 2024,
                         "AñoDate": "2024-01-01T00:00:00",
@@ -2330,7 +2330,7 @@
                         "FechaVencimiento": "2024-06-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 11.83,
+                        "Saldo": 11.84,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2339,7 +2339,7 @@
                         "PeriodoC": "2024-03",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 1.55,
+                        "ValorInteres": 1.57,
                         "Estado": 1,
                         "Año": 2024,
                         "AñoDate": "2024-01-01T00:00:00",
@@ -2347,7 +2347,7 @@
                         "FechaVencimiento": "2024-09-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 11.55,
+                        "Saldo": 11.57,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2356,7 +2356,7 @@
                         "PeriodoC": "2024-04",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 1.28,
+                        "ValorInteres": 1.29,
                         "Estado": 1,
                         "Año": 2024,
                         "AñoDate": "2024-01-01T00:00:00",
@@ -2364,7 +2364,7 @@
                         "FechaVencimiento": "2024-12-31T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 11.28,
+                        "Saldo": 11.29,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2373,7 +2373,7 @@
                         "PeriodoC": "2025-01",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 1.01,
+                        "ValorInteres": 1.02,
                         "Estado": 1,
                         "Año": 2025,
                         "AñoDate": "2025-01-01T00:00:00",
@@ -2381,7 +2381,7 @@
                         "FechaVencimiento": "2025-03-31T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 11.01,
+                        "Saldo": 11.02,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2390,7 +2390,7 @@
                         "PeriodoC": "2025-02",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 0.74,
+                        "ValorInteres": 0.75,
                         "Estado": 1,
                         "Año": 2025,
                         "AñoDate": "2025-01-01T00:00:00",
@@ -2398,7 +2398,7 @@
                         "FechaVencimiento": "2025-06-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 10.74,
+                        "Saldo": 10.75,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2407,7 +2407,7 @@
                         "PeriodoC": "2025-03",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 0.46,
+                        "ValorInteres": 0.47,
                         "Estado": 1,
                         "Año": 2025,
                         "AñoDate": "2025-01-01T00:00:00",
@@ -2415,7 +2415,7 @@
                         "FechaVencimiento": "2025-09-30T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 10.46,
+                        "Saldo": 10.47,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2424,7 +2424,7 @@
                         "PeriodoC": "2025-04",
                         "ValorDeuda": 10.00,
                         "ValorDerechoEmision": 0.00,
-                        "ValorInteres": 0.18,
+                        "ValorInteres": 0.20,
                         "Estado": 1,
                         "Año": 2025,
                         "AñoDate": "2025-01-01T00:00:00",
@@ -2432,7 +2432,7 @@
                         "FechaVencimiento": "2025-12-31T00:00:00",
                         "Codigo": "P-0395",
                         "Pago": 0.00,
-                        "Saldo": 10.18,
+                        "Saldo": 10.20,
                         "DireccionCompleta": "CP.  SAYAN CA. LOS PATRIOTAS Mz. F Lot. 02"
                     },
                     {
@@ -2511,9 +2511,9 @@
         "Id_Config_Tributo": 4,
         "Descripcion": "FRACCIONAMIENTO TRIBUTARIO",
         "Insoluto": 812.28,
-        "Interes": 0.00,
-        "Total": 812.28,
-        "PorPagar": -4.29,
+        "Interes": 4.29,
+        "Total": 816.57,
+        "PorPagar": 0.00,
         "IsTributo": false,
         "hijos": [
             {
@@ -2539,7 +2539,7 @@
                 "PeriodoC": "2022-01",
                 "ValorDeuda": 143.07,
                 "ValorDerechoEmision": 0.00,
-                "ValorInteres": 0.00,
+                "ValorInteres": 1.43,
                 "Estado": 2,
                 "Año": 2022,
                 "AñoDate": "2022-01-01T00:00:00",
@@ -2547,7 +2547,7 @@
                 "FechaVencimiento": "2022-10-22T00:00:00",
                 "Codigo": "P-0395",
                 "Pago": 144.50,
-                "Saldo": -1.43,
+                "Saldo": 0.00,
                 "DireccionCompleta": ""
             },
             {
@@ -2556,7 +2556,7 @@
                 "PeriodoC": "2022-02",
                 "ValorDeuda": 143.07,
                 "ValorDerechoEmision": 0.00,
-                "ValorInteres": 0.00,
+                "ValorInteres": 2.86,
                 "Estado": 2,
                 "Año": 2022,
                 "AñoDate": "2022-01-01T00:00:00",
@@ -2564,7 +2564,7 @@
                 "FechaVencimiento": "2022-11-21T00:00:00",
                 "Codigo": "P-0395",
                 "Pago": 145.93,
-                "Saldo": -2.86,
+                "Saldo": 0.00,
                 "DireccionCompleta": ""
             },
             {

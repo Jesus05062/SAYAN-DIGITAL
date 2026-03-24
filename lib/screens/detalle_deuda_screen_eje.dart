@@ -11,20 +11,20 @@ class DetalleDeudaScreen extends StatefulWidget {
 }
 
 class _DetalleDeudaScreenState extends State<DetalleDeudaScreen> {
-
   final bool configPagosHabilitados = AppSwitches.pagosHabilitados;
   final bool configMostrarPagados = AppSwitches.mostrarPagados;
-  
+
   String? direccionSeleccionada;
   List<int> seleccionadosIds = []; // IDs de deudas marcadas para pagar
 
   @override
   Widget build(BuildContext context) {
-    // Recibimos el objeto CurrentAccount enviado desde la pantalla principal
-    final tributo = ModalRoute.of(context)!.settings.arguments as CurrentAccount;
+    final tributo =
+        ModalRoute.of(context)!.settings.arguments as CurrentAccount;
 
     // Lógica para Limpieza/Serenazgo: Inicializar la primera dirección si hay varias
-    if ((tributo.descripcion.contains("LIMPIEZA") || tributo.descripcion.contains("SERENAZGO")) &&
+    if ((tributo.descripcion.contains("LIMPIEZA") ||
+            tributo.descripcion.contains("SERENAZGO")) &&
         direccionSeleccionada == null &&
         tributo.hijos.isNotEmpty) {
       direccionSeleccionada = tributo.hijos.first.direccion;
@@ -33,13 +33,21 @@ class _DetalleDeudaScreenState extends State<DetalleDeudaScreen> {
     // Filtrar deudas según la dirección seleccionada (si aplica)
     List<DeudaHijo> deudasAMostrar = tributo.hijos;
     if (direccionSeleccionada != null) {
-      deudasAMostrar = tributo.hijos.where((h) => h.direccion == direccionSeleccionada).toList();
+      deudasAMostrar = tributo.hijos
+          .where((h) => h.direccion == direccionSeleccionada)
+          .toList();
     }
 
     return Scaffold(
       backgroundColor: const Color(0xFFF4F7FA),
       appBar: AppBar(
-        title: Text(tributo.descripcion, style: GoogleFonts.urbanist(fontWeight: FontWeight.bold, color: Colors.white)),
+        title: Text(
+          tributo.descripcion,
+          style: GoogleFonts.urbanist(
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
+          ),
+        ),
         backgroundColor: const Color(0xFF00296B),
         iconTheme: const IconThemeData(color: Colors.white),
       ),
@@ -50,7 +58,9 @@ class _DetalleDeudaScreenState extends State<DetalleDeudaScreen> {
           Expanded(
             child: ListView(
               padding: const EdgeInsets.all(15),
-              children: deudasAMostrar.map((ano) => _buildYearExpansionTile(ano)).toList(),
+              children: deudasAMostrar
+                  .map((ano) => _buildYearExpansionTile(ano))
+                  .toList(),
             ),
           ),
         ],
@@ -69,9 +79,18 @@ class _DetalleDeudaScreenState extends State<DetalleDeudaScreen> {
       color: Colors.white,
       child: Column(
         children: [
-          Text("DEUDA TOTAL SELECCIONADA", style: GoogleFonts.urbanist(fontSize: 12, color: Colors.grey)),
-          Text("S/ ${deudaTotal.toStringAsFixed(2)}", 
-            style: GoogleFonts.urbanist(fontSize: 28, fontWeight: FontWeight.w800, color: Colors.red[800])),
+          Text(
+            "DEUDA TOTAL SELECCIONADA",
+            style: GoogleFonts.urbanist(fontSize: 12, color: Colors.grey),
+          ),
+          Text(
+            "S/ ${deudaTotal.toStringAsFixed(2)}",
+            style: GoogleFonts.urbanist(
+              fontSize: 28,
+              fontWeight: FontWeight.w800,
+              color: Colors.red[800],
+            ),
+          ),
         ],
       ),
     );
@@ -83,12 +102,22 @@ class _DetalleDeudaScreenState extends State<DetalleDeudaScreen> {
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
       padding: const EdgeInsets.symmetric(horizontal: 15),
-      decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(10)),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(10),
+      ),
       child: DropdownButton<String>(
         value: direccionSeleccionada,
         isExpanded: true,
         underline: const SizedBox(),
-        items: direcciones.map((dir) => DropdownMenuItem(value: dir, child: Text(dir ?? "Sin Dirección"))).toList(),
+        items: direcciones
+            .map(
+              (dir) => DropdownMenuItem(
+                value: dir,
+                child: Text(dir ?? "Sin Dirección"),
+              ),
+            )
+            .toList(),
         onChanged: (val) => setState(() => direccionSeleccionada = val),
       ),
     );
@@ -97,10 +126,17 @@ class _DetalleDeudaScreenState extends State<DetalleDeudaScreen> {
   Widget _buildYearExpansionTile(DeudaHijo ano) {
     return Card(
       elevation: 0,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15), /* side: Border.all(color: Colors.grey.shade200) */),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(
+          15,
+        ) /* side: Border.all(color: Colors.grey.shade200) */,
+      ),
       margin: const EdgeInsets.only(bottom: 10),
       child: ExpansionTile(
-        title: Text("Año / Periodo: ${ano.periodoC}", style: GoogleFonts.urbanist(fontWeight: FontWeight.bold)),
+        title: Text(
+          "Año / Periodo: ${ano.periodoC}",
+          style: GoogleFonts.urbanist(fontWeight: FontWeight.bold),
+        ),
         subtitle: Text("Saldo: S/ ${ano.saldo?.toStringAsFixed(2)}"),
         children: [
           SingleChildScrollView(
@@ -111,30 +147,44 @@ class _DetalleDeudaScreenState extends State<DetalleDeudaScreen> {
                 const DataColumn(label: Text("Periodo")),
                 const DataColumn(label: Text("Saldo")),
                 const DataColumn(label: Text("Estado")),
-                if (configPagosHabilitados) const DataColumn(label: Text("Pagar")),
+                if (configPagosHabilitados)
+                  const DataColumn(label: Text("Pagar")),
               ],
-              rows: ano.detalles.map((det) {
-                if (!configMostrarPagados && det.id == 2) return null; // Ocultar pagados si flag es false
+              rows: ano.detalles
+                  .map((det) {
+                    if (!configMostrarPagados && det.id == 2)
+                      return null; // Ocultar pagados si flag es false
 
-                return DataRow(cells: [
-                  DataCell(Text(det.periodoC)),
-                  DataCell(Text("S/ ${det.saldo.toStringAsFixed(2)}")),
-                  DataCell(_buildStatusBadge(det.id)),
-                  if (configPagosHabilitados)
-                    DataCell(
-                      (det.id == 1) // Solo estado 1 (Pendiente) permite checkbox
-                      ? Checkbox(
-                          value: seleccionadosIds.contains(det.id),
-                          onChanged: (val) {
-                            setState(() {
-                              val! ? seleccionadosIds.add(det.id) : seleccionadosIds.remove(det.id);
-                            });
-                          },
-                        )
-                      : const Icon(Icons.lock_outline, size: 16, color: Colors.grey),
-                    ),
-                ]);
-              }).whereType<DataRow>().toList(),
+                    return DataRow(
+                      cells: [
+                        DataCell(Text(det.periodoC)),
+                        DataCell(Text("S/ ${det.saldo.toStringAsFixed(2)}")),
+                        DataCell(_buildStatusBadge(det.id)),
+                        if (configPagosHabilitados)
+                          DataCell(
+                            (det.id ==
+                                    1) // Solo estado 1 (Pendiente) permite checkbox
+                                ? Checkbox(
+                                    value: seleccionadosIds.contains(det.id),
+                                    onChanged: (val) {
+                                      setState(() {
+                                        val!
+                                            ? seleccionadosIds.add(det.id)
+                                            : seleccionadosIds.remove(det.id);
+                                      });
+                                    },
+                                  )
+                                : const Icon(
+                                    Icons.lock_outline,
+                                    size: 16,
+                                    color: Colors.grey,
+                                  ),
+                          ),
+                      ],
+                    );
+                  })
+                  .whereType<DataRow>()
+                  .toList(),
             ),
           ),
         ],
@@ -145,14 +195,33 @@ class _DetalleDeudaScreenState extends State<DetalleDeudaScreen> {
   Widget _buildStatusBadge(int estado) {
     String texto = "Pendiente";
     Color color = Colors.red;
-    if (estado == 2) { texto = "Pagado"; color = Colors.green; }
-    if (estado == 3) { texto = "Fracc."; color = Colors.blue; }
-    if (estado == 4) { texto = "Coactivo"; color = Colors.orange[800]!; }
+    if (estado == 2) {
+      texto = "Pagado";
+      color = Colors.green;
+    }
+    if (estado == 3) {
+      texto = "Fracc.";
+      color = Colors.blue;
+    }
+    if (estado == 4) {
+      texto = "Coactivo";
+      color = Colors.orange[800]!;
+    }
 
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-      decoration: BoxDecoration(color: color.withOpacity(0.1), borderRadius: BorderRadius.circular(5)),
-      child: Text(texto, style: TextStyle(color: color, fontSize: 10, fontWeight: FontWeight.bold)),
+      decoration: BoxDecoration(
+        color: color.withOpacity(0.1),
+        borderRadius: BorderRadius.circular(5),
+      ),
+      child: Text(
+        texto,
+        style: TextStyle(
+          color: color,
+          fontSize: 10,
+          fontWeight: FontWeight.bold,
+        ),
+      ),
     );
   }
 
@@ -163,19 +232,32 @@ class _DetalleDeudaScreenState extends State<DetalleDeudaScreen> {
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
         color: Colors.white,
-        boxShadow: [BoxShadow(color: Colors.black12, blurRadius: 10, offset: Offset(0, -2))],
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black12,
+            blurRadius: 10,
+            offset: Offset(0, -2),
+          ),
+        ],
       ),
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
           backgroundColor: const Color(0xFF00296B),
           padding: const EdgeInsets.symmetric(vertical: 15),
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(10),
+          ),
         ),
         onPressed: () {
           // Navegar a pasarela de pagos
         },
-        child: Text("PROCEDER AL PAGO (${seleccionadosIds.length})", 
-          style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
+        child: Text(
+          "PROCEDER AL PAGO (${seleccionadosIds.length})",
+          style: const TextStyle(
+            color: Colors.white,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
       ),
     );
   }

@@ -1,3 +1,19 @@
+{
+    "correo": "jixuxch@gmail.com",
+    "activo": true,
+    "mensaje": "Correcto",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjE1Njg1MjA4IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IjE1Njg1MjA4IiwianRpIjoiZTY0YTZmZDgtZDBiYi00YmZjLWJjM2MtMGE2MTVkM2M4NzI0IiwiaWF0IjoxNzc0MjgzMDc2LCJuYmYiOjE3NzQyODMwNzYsImV4cCI6MTc3NDI4NDI3NiwiaXNzIjoiQVBJTXVuaWNpcGFsMjAyNSIsImF1ZCI6IlNpc3RlbWFNdW5pY2lwYWwifQ.8Mx2SjT93ksstlVrvxtZOf_6NfqsbWBSpFBKFmXIkuo",
+    "expiresIn": 1,
+    "detalle": [
+        {
+            "contrib": "P-0395",
+            "nombreCompleto": "PALOMARES DE NARVASTA LUCILA E HIJOS",
+            "direccion": "CENTRO POBLADO SAYAN CALLE LOS PATRIOTAS Lot. 02 "
+        }
+    ]
+}
+
+
 [
     {
         "Id_Config_Tributo": 1,

@@ -25,5 +25,6 @@ class InterfaceColor extends MaterialColor {
 
 class AppSwitches {
   static const bool pagosHabilitados = true; // Controla Checkbox y Botón Pagar
-  static const bool mostrarPagados = false;  // Controla si se listan recibos con Estado 2
+  static const bool mostrarPagados =
+      true; // Controla si se listan recibos con Estado 2
 }

@@ -1,3 +1,24 @@
+{
+    "correo": "jixuxch2@gmail.com",
+    "activo": true,
+    "mensaje": "Correcto",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjE1NzAwNjU2IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6IjE1NzAwNjU2IiwianRpIjoiZTUwNTgwYTctYmJlZi00MjYxLWI2NDktYmJhZTZhNTExNjY3IiwiaWF0IjoxNzc0MjgzMDE2LCJuYmYiOjE3NzQyODMwMTYsImV4cCI6MTc3NDI4NDIxNiwiaXNzIjoiQVBJTXVuaWNpcGFsMjAyNSIsImF1ZCI6IlNpc3RlbWFNdW5pY2lwYWwifQ.lfL89OgxPK_iHDN05-pGph_84qCv2mWdszqG1cUcPKA",
+    "expiresIn": 1,
+    "detalle": [
+        {
+            "contrib": "C-1017",
+            "nombreCompleto": "CABRERA APOLAYA MIGUEL CRISANTO",
+            "direccion": "CENTRO POBLADO IRRIGACION SANTA ROSA ASOCIACION UNION SANTA ROSA DE LIMA- LA MERCED "
+        },
+        {
+            "contrib": "S-1047",
+            "nombreCompleto": "SUCESION INTESTADA CABRERA SANCHEZ ALBERTO",
+            "direccion": "CENTRO POBLADO IRRIGACION SANTA ROSA ASENTAMIENTO HUMANO LA MERCED Lot. 06  Mz. B  "
+        }
+    ]
+}
+
+
 [
     {
         "Id_Config_Tributo": 1,

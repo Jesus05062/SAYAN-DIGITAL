@@ -43,7 +43,7 @@ class _LoginScreenState extends State<LoginScreen> {
       context,
       listen: false,
     );
-    print("Intentando ingresar con DNI: ${_dniController.text}");
+
     final success = await authProvider.ingresar(
       _dniController.text,
       _claveController.text,
@@ -53,19 +53,21 @@ class _LoginScreenState extends State<LoginScreen> {
 
     if (success) {
       final detalles = authProvider.user?.detalle ?? [];
+      final datos = {
+        "codigo": detalles[0].contrib,
+        "nombreCompleto": detalles[0].nombreCompleto,
+      };
 
       if (detalles.length > 1) {
         Navigator.pushReplacementNamed(context, 'codigos');
       } else if (detalles.length == 1) {
-        print("Detalles: $detalles");
-        print("Contribuyente: ${detalles[0].contrib}");
         await accountProvider.getDeudas(detalles[0].contrib);
         if (!mounted) {
           return;
         }
-        Navigator.pushReplacementNamed(context, 'principal');
+        Navigator.pushReplacementNamed(context, 'principal', arguments: datos);
       } else {
-        Navigator.pushReplacementNamed(context, 'principal');
+        Navigator.pushReplacementNamed(context, 'principal', arguments: datos);
       }
     } else {
       displayCustomAlert(

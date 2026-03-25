@@ -23,8 +23,7 @@ class _DetalleDeudaScreenState extends State<DetalleDeudaScreen> {
         ModalRoute.of(context)!.settings.arguments as CurrentAccount;
 
     // Lógica para Limpieza/Serenazgo: Inicializar la primera dirección si hay varias
-    if ((tributo.descripcion.contains("LIMPIEZA") ||
-            tributo.descripcion.contains("SERENAZGO")) &&
+    if ((tributo.idConfigTributo == 2 || tributo.idConfigTributo == 3) &&
         direccionSeleccionada == null &&
         tributo.hijos.isNotEmpty) {
       direccionSeleccionada = tributo.hijos.first.direccion;

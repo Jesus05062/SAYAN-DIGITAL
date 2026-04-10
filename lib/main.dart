@@ -8,7 +8,7 @@ import 'package:sayan_digital/screens/acc_reg.dart';
 import 'package:sayan_digital/screens/auth/login_screen.dart';
 import 'package:sayan_digital/screens/auth/register_screen.dart';
 import 'package:sayan_digital/screens/codigos_screen.dart';
-import 'package:sayan_digital/screens/detalle_deuda_screen_eje.dart';
+import 'package:sayan_digital/screens/detalle_deuda_screen.dart';
 import 'package:sayan_digital/screens/home_screen.dart';
 import 'package:sayan_digital/screens/principal_screen.dart';
 

@@ -48,6 +48,7 @@ dev_dependencies:
   flutter_lints: ^6.0.0
   shared_preferences: ^2.5.4
   mask_text_input_formatter: ^2.9.0
+  flutter_countdown_timer: ^4.1.0
   google_fonts: ^8.0.2
   http: ^1.6.0
   email_validator: ^3.0.0

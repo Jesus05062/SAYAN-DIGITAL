@@ -70,6 +70,7 @@ class _LoginScreenState extends State<LoginScreen> {
         Navigator.pushReplacementNamed(context, 'principal', arguments: datos);
       }
     } else {
+      dispose();
       displayCustomAlert(
         context: context,
         icon: Icons.error_outline,

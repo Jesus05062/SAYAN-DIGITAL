@@ -42,9 +42,10 @@ class CurrentAccountProvider extends ChangeNotifier {
       } else {
         _cuentas = [];
       }
-    } catch (e) {
+    } catch (e, stacktrace) {
       _cuentas = [];
       print("Error cargando deudas: $e");
+      print("Stacktrace: $stacktrace");
     }
 
     _isLoading = false;
